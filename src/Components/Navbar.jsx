@@ -113,7 +113,7 @@ const Navbar = () => {
 
             </div>
 
-            <div className={`text-white xl:hidden bg-[#1E2222] max-w-[500px] w-[100vw] border-b-2 border-b-white transition-all duration-300 absolute top-20 ${responsiveNav ? 'right-0' : '-right-[560px] '} z-[110]`} >
+            <div className={`text-white xl:hidden bg-[#1E2222] max-w-[500px] w-[100vw] border-b-2 border-b-white transition-all duration-300 absolute top-20 ${responsiveNav ? 'right-0 block' : '-right-[560px] hidden '} z-[110]`} >
                 <div className='flem items-center py-4 mx-2  ' onClick={() => setWhatWeDo(!whatWeDo)} >
                     <p className='flex justify-between items-center'>What we do <IoMdArrowDropdown /></p>
                 </div>
